@@ -1,0 +1,5 @@
+# created by virtualenv automatically
+/venv/
+/.idea
+tests/.pytest_cache
+tests/__init__.py
