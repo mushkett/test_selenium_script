@@ -7,7 +7,7 @@ def driver(request):
     options = webdriver.ChromeOptions()
     options.add_argument('--no-sandbox')
     # in order to turn off/on headless mode please comment/uncomment a line below
-    options.add_argument('headless')
+    # options.add_argument('headless')
     options.add_argument('disable-infobars')
     options.add_argument('window-size=1920x1080')
     options.add_argument('--verbose')
